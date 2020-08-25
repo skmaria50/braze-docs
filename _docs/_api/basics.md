@@ -152,7 +152,7 @@ Header Name             | Description
 
 If you have questions about API limits please contact your Customer Success Manager or please [open a support ticket][support].
 
-### Optimal Delay Between Endpoints
+### Optimal Delay Between Endpoints [TEST]
 
 Understanding Optimal Delay between endpoints is crucial when making consecutive calls to the Braze API. Problems arise when endpoints depend on the successful processing of other endpoints, and if called too soon, could raise errors. For example, if you're assigning users an alias via our New User Alias endpoint, and then hitting that alias to send a custom event via our Usertrack endpoint, how long should you wait?
 
