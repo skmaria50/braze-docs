@@ -52,6 +52,7 @@ Authorization: Bearer YOUR_REST_API_KEY
   	{
   		"id" : (string) Canvas API Identifier,
   		"name" : (string) Canvas name,
+      "last_edited": (ISO 8601 string) the last edited time for the message
   		"tags" : (array) tag names associated with the Canvas,
   	},
     ... (more Canvases)
